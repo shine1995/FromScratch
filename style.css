@@ -1,5 +1,6 @@
 .header {
-
+    background-color: blueviolet;
+    height: 400px;
 }
 
 
@@ -8,11 +9,16 @@
 
 
 
-
+.nav-links {
+    color: red;
+}
 
 
 
 /* css for my name at the top only, why I'm using id */
 #blake {
+    background-color: blue;
+    font-family: "Bodoni 72";
+    color: white;
 
 }
