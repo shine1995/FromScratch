@@ -10,6 +10,18 @@ a {
     color: #e44b00;
 }
 
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: #e44b00;
+}
+
+body section {
+    background-color: white;
+}
+
 .header {
     background-color: #e44b00;
     background-position: center center;
