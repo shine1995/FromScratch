@@ -1,24 +1,41 @@
+body {
+    background-color: #ffffff;
+    color: #2a1c29;
+    font-family: Gill Sans, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    margin: 0;
+}
+
+a {
+    color: #e44b00;
+}
+
 .header {
-    background-color: blueviolet;
-    height: 400px;
+    background-color: #e44b00;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    text-align: center;
 }
 
-
-
-
-
-
-
-.nav-links {
-    color: red;
+.header img {
+    margin-bottom: 30px;
 }
 
+.header nav a {
+    font-size: x-large;
+    border-bottom: 2px solid #e44b00;
+    border-radius: 10px;
+    color: #2a1c29;
+    text-decoration: none;
+    margin-right: 5px;
+    padding: 5px;
+}
 
+.header nav a:hover {
+    background: #ff833a;
+}
 
-/* css for my name at the top only, why I'm using id */
-#blake {
-    background-color: blue;
-    font-family: "Bodoni 72";
-    color: white;
-
+.header nav a.active {
+    background: #ffffff;
 }
