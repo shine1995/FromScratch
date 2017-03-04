@@ -51,3 +51,7 @@ body section {
 .header nav a.active {
     background: #ffffff;
 }
+
+#about-paragraph p {
+    height: 800px;
+}
