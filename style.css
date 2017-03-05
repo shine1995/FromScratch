@@ -11,6 +11,8 @@ a {
 }
 
 h1 {
+    border: 5px;
+    padding: 5px;
     text-align: center;
 }
 
@@ -22,12 +24,18 @@ body section {
     background-color: white;
 }
 
+.main {
+    border-top: 20px;
+    margin: 10px 0 10px 0;
+}
+
 .header {
     background-color: #e44b00;
     background-position: center center;
     background-repeat: no-repeat;
     padding: 20px;
     text-align: center;
+    border-bottom: 20px;
 }
 
 .header img {
@@ -54,4 +62,13 @@ body section {
 
 #about-paragraph p {
     height: 800px;
+}
+
+#projects-header p {
+    height: 800px;
+}
+
+#contact-form p {
+    height: 400px;
+    width: 300px;
 }
